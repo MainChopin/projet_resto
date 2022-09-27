@@ -1,0 +1,115 @@
+.bg-image-sec01{
+    background-image: url("../img/slideshow-25.jpg");
+    height: 95.5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-image-sec02{
+    background-image: url("../img/about-us-bg.png");
+    height: 117vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-image-sec03{
+    background-image: url("../img/special-bg.jpg");
+    height: 89.5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+p{
+    color: #333;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+#section-01 h2{
+    text-decoration: underline overline #fafafa;
+    text-underline-offset: 0.8rem;
+
+}
+
+h2{
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+h3{
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+p{
+    color: #fafafa;
+}
+
+#section-02 p {
+    padding-top: 60px;
+    line-height: 1.8;
+}
+
+#section-03 p {
+    color: #333;
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    background-color: #fafafa;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+}
+
+.black-box{
+    background-color: #000;
+    color: #fafafa;
+    width: 650px;
+    height: 650px;
+    padding: 100px 50px 50px 50px;
+    margin: 18% 20px;
+    position: relative;
+    
+}
+
+.inner-outline {
+    outline: 1px solid #fafafa;
+    outline-offset: -20px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.card{
+    width: 18rem !important;
+    margin: 20px;
+}
+
+.checked {
+    color: orange;
+}
+
+.pt-80{
+    padding-top: 80px;
+}
+
+.pt-120{
+    padding-top: 120px;
+}
+
+.pb-80{
+    padding-bottom: 80px;
+}
