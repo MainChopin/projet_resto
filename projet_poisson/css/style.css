@@ -18,23 +18,18 @@
     background-position: center;
 }
 
+.bg-white-sec04{
+    background-color: #fafafa;
+    height: 1300px;
+}
+
+p{
+    color: #fafafa;
+}
+
 h1{
     color: #fafafa;
     text-transform: uppercase;
-}
-
-#section-01 h2{
-    text-decoration: underline overline #fafafa;
-    text-underline-offset: 0.8rem;
-}
-
-.content-header {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
 }
 
 h2{
@@ -47,8 +42,9 @@ h3{
     text-transform: uppercase;
 }
 
-p{
-    color: #fafafa;
+#section-01 h2{
+    text-decoration: underline overline #fafafa;
+    text-underline-offset: 0.8rem;
 }
 
 #section-02 p {
@@ -74,10 +70,17 @@ p{
     color: #fafafa;
     width: 650px;
     height: 650px;
-    padding: 100px 50px 50px 50px;
-    
+    padding: 100px 50px 50px 50px;    
     position: relative;
-    
+}
+
+#section-04 .black-box{
+    background-color: #000;
+    color: #fafafa;
+    width: 1576px;
+    height: 1000px;  
+    position: relative;
+    padding: 0;
 }
 
 .inner-outline {
@@ -90,8 +93,8 @@ img{
 }
 
 .card{
-    width: 18rem !important;
-    height: 350px !important;
+    width: 350px !important;
+    height: 450px !important;
     margin: 20px;
 }
 
@@ -106,4 +109,20 @@ img{
 .navbar .navbar-nav .nav-link:hover {
     outline: 1px solid #fafafa;
     color: #fafafa;
-  }
+}
+
+
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1600px !important;
+    }
+}
+
+#section-04 .content .container #logo-nav-sec04 img{
+    opacity: 50%;
+}
+
+#section-04 .content .container #logo-nav-sec04 img:hover{
+    opacity: 100%;
+}
+
