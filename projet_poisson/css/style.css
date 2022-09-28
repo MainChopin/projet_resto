@@ -23,6 +23,16 @@
     height: 1300px;
 }
 
+.bg-black-sec05{
+    background-color: #111;
+    height: 850px;
+}
+
+.bg-white-sec06{
+    background-color: #fafafa;
+    height: 1000px;
+}
+
 p{
     color: #fafafa;
 }
@@ -42,6 +52,11 @@ h3{
     text-transform: uppercase;
 }
 
+h4{
+    color: #fafafa;
+
+}
+
 #section-01 h2{
     text-decoration: underline overline #fafafa;
     text-underline-offset: 0.8rem;
@@ -54,6 +69,12 @@ h3{
 
 #section-03 p {
     color: #333;
+}
+#section-05 #gallery .col-3{
+    padding: 0;
+}
+#section-05 #gallery .col-12{
+    padding: 0;
 }
 
 .dot {
